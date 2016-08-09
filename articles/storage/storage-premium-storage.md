@@ -51,7 +51,9 @@ You can use Premium Storage for Disks in one of two ways:
 
 For step-by-step instructions, see the [Quick Start](#quick-start) section later in this article.
 
->[AZURE.NOTE] A premium storage account cannot be mapped to a custom domain name.
+>[AZURE.NOTE]
+- A premium storage account cannot be mapped to a custom domain name.
+- Premium Storage currently does not support Azure Block Blobs, Azure Append Blobs, Azure Files, Azure Tables, or Azure Queues. 
 
 ## DS, DSv2 and GS series VMs
 
